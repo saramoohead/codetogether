@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
+
+body {
+	font-family: "helvetica neue", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+
+	/*background-color: #999999;*/
+	background-image: url(../images/background.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	color: 444444;
+	width: 680px;
+	margin: 0 auto 0 auto;
+}
+
+header {
+	text-align: center;
+	padding: 20px 0 10px 0;
+}
+
+.logo {
+	width: 400;
+}
+
+nav {
+	background: #ec7d29;
+	padding: 40px 0;
+	text-align: center;
+}
+
+nav a {
+	color:#444444;
+	font-weight: 700;
+	padding: 20px;
+	/*You've got to use padding, and not margin, you are adding increase padding for the people on a touch screen, trying to hit the link with thier finger*/
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color:#666666;
+}
+
+.body_image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+section {
+	background-color: #ffffff;
+	padding: 20px 40px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+h2 {
+	font-size: 21px;
+	margin: 20px 0;
+}
+h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+}
+
+p {
+	margin: 20px 0;
+}
+
+blockquote {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+section.quotes {
+	background: #e3e7e6;
+}
+
+section.quotes p {
+	text-align: right;
+}
+
+footer {
+	background-color: #ffffff;
+	padding: 20px 40px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 10px;
+}
+
+.caption {
+	text-align: right;
+	font-size: 12px;
+	margin: 0;
+	border-bottom: 1px solid #eeeeee;
+	padding: 15px 0 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#mailchimp {
+	font-size: 14px; color: #444444;
+	width: 80%;
+	line-height: 2;
+	margin: 5px 0 5px;
+}
+
+.button {
+	border: 2px solid #444444; background: #ec7d29;
+	font-size: 14px; font-weight: bold; color: #444444;
+	padding: 11px 30px;
+	display: block;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-right: auto;
+}
+
+.lots_of_text {
+	height: 400px;
+}
+
+.indicates-required {
+	font-size: 10px;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 720px) {
+	body {
+		width: auto;
+		margin: 0 20px 0 20px;
+	}
+	img, iframe {
+		max-width: 100%;
+	}
+
+	nav a {
+		display: block;
+		padding: 10px 20px 10px 20px;
+	}
+}
+/*The top line says, must be viewed on screen, and if less than 720px, kick in these rules. The margin avoids the jumpiness.*/
+/*We can tell the images to constrain itself into its box.*/
+
