@@ -1,11 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
-
 body {
 	font-family: "helvetica neue", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 
-	/*background-color: #999999;*/
 	background-image: url(../images/background.png);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -36,7 +33,6 @@ nav a {
 	color:#444444;
 	font-weight: 700;
 	padding: 20px;
-	/*You've got to use padding, and not margin, you are adding increase padding for the people on a touch screen, trying to hit the link with thier finger*/
 	text-decoration: none;
 }
 
@@ -149,6 +145,5 @@ footer {
 		padding: 10px 20px 10px 20px;
 	}
 }
-/*The top line says, must be viewed on screen, and if less than 720px, kick in these rules. The margin avoids the jumpiness.*/
-/*We can tell the images to constrain itself into its box.*/
+
 
