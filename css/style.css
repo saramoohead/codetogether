@@ -102,10 +102,16 @@ footer {
 	letter-spacing: 3px;
 }
 
-#mailchimp {
+.mailchimp {
 	font-size: 14px; color: #444444;
 	width: 80%;
 	line-height: 2;
+	margin: 5px 0 5px;
+}
+
+.mailchimp_textarea {
+	font-size: 14px; color: #444444;
+	width: 80%;
 	margin: 5px 0 5px;
 }
 
